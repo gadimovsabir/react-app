@@ -2,7 +2,12 @@ import React from 'react';
 
 class SearchInput extends React.Component {
   render() {
-    return <input type="search" placeholder="Поиск" className="search-input" />;
+    return (
+      <div>
+        <input type="search" placeholder="Поиск" className="search-input" />
+        <button className="search-btn" />
+      </div>
+    );
   }
 }
 
