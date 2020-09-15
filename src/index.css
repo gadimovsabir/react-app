@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 970px;
+}
+
+.primary-header {
+  background-image: url(./img/header_bg-16b933a63f94b28290d368006e6a4901530e656b79339c9ed6de9321eb73a30a.png);
+  padding: 10px 0;
+}
+
+.logo {
+  display: inline-block;
+  height: 22px;
+  width: 125px;
+  background-image: url(./img/sprite-14779aea9a2609defbd213c565a1d0593922d6e2ca321f275b01c9afcb10310f.svg);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-Bold-webfont.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-Regular-webfont.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/Roboto-Light-webfont.woff);
+  font-weight: 300;
+  font-style: normal;
+}

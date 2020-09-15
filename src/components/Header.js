@@ -1,10 +1,11 @@
 import React from 'react';
+import PrimaryHeader from './PrimaryHeader.js'
 
 class Header extends React.Component {
   render() {
     return (
       <header>
-        <div className='container'></div>
+        <PrimaryHeader />
       </header>
     );
   }
