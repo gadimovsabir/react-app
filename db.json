@@ -1,29 +1,34 @@
 {
   "news": [
     {
-      "id": 1,
-      "title": "Бакметрополитен о сроках сдачи в эксплуатацию новой станции",
-      "published": "2020-09-14T11:13:00.000Z"
-    },
-    {
-      "id": 2,
-      "title": "Самед Сеидов: Армяне уклонились от обсуждений незаконного заселения Нагорного Карабаха в комитетах ПАСЕ",
-      "published": "2020-09-14T10:31:00.000Z"
-    },
-    {
-      "id": 3,
-      "title": "Фарид Шафиев: Русскоязычные школы могут перейти на систему двуязычного образования",
-      "published": "2020-09-14T10:16:03.000Z"
+      "id": 5,
+      "title": "В Баку 27-летняя учительница свела счеты с жизнью - ФОТО",
+      "published": "2020-09-14T11:16:00.000Z",
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTIvMDgvNDEvOWY0NzQ3MWQtOGZkOS00NjU0LWFhYTktYTc5NDIwMDVlMzFiLzk2ODQ0Mi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=c8d55dfa93c52991"
     },
     {
       "id": 4,
-      "title": "Самед Сеидов: В будущем визовый режим с Турцией может быть полностью отменен",
-      "published": "2020-09-14T09:07:00.000Z"
+      "title": "Живу одна в заводском помещении, где нет даже воды - ОБРАЩЕНИЕ В РЕДАКЦИЮ - ФОТО",
+      "published": "2020-09-14T11:15:00.000Z",
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTEvMDAvMjQvNWMzMjZjNjItZWIzMy00NzJkLTg2YzAtZjdiNjNlNWQ3NTZlLzE2MDAyNTQ0NjNfbXljb2xsYWdlcy0xNi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=a48aca45404b898c"
     },
     {
-      "id": 5,
-      "title": "Армения вновь пытается обострить ситуацию на границе с Азербайджаном",
-      "published": "2020-09-14T08:24:00.000Z"
+      "id": 3,
+      "title": "Депутат: Мне сообщили о незаконных действиях бывших членов Комиссии по помилованию",
+      "published": "2020-09-14T11:14:00.000Z",
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTIvMTQvMDcvNjM1NWJhOWYtMmE0Ny00MDA2LThiN2EtMGZkZWEzY2VkNzQxL2Vmdi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=c2697b19f0e7cf5c"
+    },
+    {
+      "id": 2,
+      "title": "В Москве освободили азербайджанцев, задержанных в Москве за стычку с армянами",
+      "published": "2020-09-14T11:13:00.000Z",
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTMvMzcvMTIvZDk1YTY2NmUtYjJkZC00MDIzLWFkNzEtNTA3ZTIyM2JiNWZjL2Rhdi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=b09fdc10402d45cc"
+    },
+    {
+      "id": 1,
+      "title": "На азербайджано-иранской границе произошла перестрелка, есть погибший - ФОТО",
+      "published": "2020-09-17T11:12:00.000Z",
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTQvMDYvMTYvNmQ5YWU5MTItYTEzNi00YjdhLTk5NTUtODE2ZmEwNzFmZDYzLzE1OTc2NjYxNDUzNjBfelBNcUtGdmsuanBnIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODAiXSxbInAiLCJ0aHVtYiIsIjYyMHg0NjVcdTAwM2UiXV0?sha=35123c5232d46c26"
     }
   ]
 }

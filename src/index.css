@@ -8,8 +8,11 @@ body {
 }
 
 .primary-header {
+  position: relative;
+  z-index: 1;
   padding: 5.5px 0;
   background-image: url(./img/header_bg-16b933a63f94b28290d368006e6a4901530e656b79339c9ed6de9321eb73a30a.png);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
 }
 
 .logo {
@@ -29,7 +32,8 @@ body {
   font-size: 18px;
 }
 
-.search-input:focus {
+.search-input:focus,
+.search-btn:focus {
   outline: none;
 }
 

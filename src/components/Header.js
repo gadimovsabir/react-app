@@ -1,5 +1,5 @@
 import React from 'react';
-import PrimaryHeader from './PrimaryHeader.js'
+import PrimaryHeader from './PrimaryHeader.js';
 
 class Header extends React.Component {
   render() {
