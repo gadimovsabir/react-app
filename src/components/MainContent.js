@@ -24,8 +24,11 @@ class MainContent extends React.Component {
     news.push(this.state.items.map(
       item => {
         return (
-          <div className="col-xl-4" key={item.id}>
-            <NewsCard />
+          <div className="col-xl-4 card-container" key={item.id}>
+            <NewsCard 
+              title={item.title}
+              imgSrc={item.imgSrc}
+            />
           </div>
         )
       }
