@@ -28,6 +28,7 @@ class MainContent extends React.Component {
             <NewsCard 
               title={item.title}
               imgSrc={item.imgSrc}
+              published={item.published}
             />
           </div>
         )
