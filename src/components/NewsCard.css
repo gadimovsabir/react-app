@@ -12,8 +12,7 @@
   box-shadow: 0 3px 9px 1px #B9B9B9;
 }
 
-.news-img {
-  width: 100%;
+.news-card-img {
   height: 225px;
   background-position: center center;
   background-size: cover;

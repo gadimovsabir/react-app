@@ -1,0 +1,21 @@
+.img-wrapper {
+  margin-bottom: 20px;
+}
+
+.news-img {
+  width: 100%;
+}
+
+.news-title {
+  margin: 15px 0 5px;
+  color: #13317F;
+  font-size: 42px;
+}
+
+.news-body {
+  margin: 25px 0 20px;
+  white-space: pre-line;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
