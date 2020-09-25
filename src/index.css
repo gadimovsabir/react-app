@@ -19,6 +19,7 @@ main {
   width: 125px;
   height: 22px;
   background-image: url(./img/sprite-14779aea9a2609defbd213c565a1d0593922d6e2ca321f275b01c9afcb10310f.svg);
+  cursor: pointer;
 }
 
 .search-input {

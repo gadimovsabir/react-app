@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <PrimaryHeader />
+        <PrimaryHeader loadData={this.props.loadData} />
       </header>
     );
   }
