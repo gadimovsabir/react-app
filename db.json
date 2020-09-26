@@ -1,41 +1,60 @@
 {
   "news": [
     {
+      "id": 7,
+      "title": "В Гедабее мужчина ударил ножом бывшую жену",
+      "published": "2020-09-26T10:33:00.000Z",
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMjYvMTEvNTkvMzkvZjAzNzc4ZjUtMzZiNC00MGJjLThjZGQtMDJlZGNiZjUxNzk5L2JiYiAoMikuanBnIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODAiXSxbInAiLCJ0aHVtYiIsIjYyMHg0NjVcdTAwM2UiXV0?sha=e33d68caea11281f",
+      "category": [3, 5]
+    },
+    {
+      "id": 6,
+      "title": "Зидан: \"Барселона\" - это клуб, который будет бороться за все титулы",
+      "published": "2020-09-26T10:27:00.000Z",
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMjYvMTEvMjAvMjkvMGIzNDliZDgtNTBmNy00Y2FjLWI4YWUtMjk3ZmQ5NWE0N2FmL1ppZGFuZS1waWM0X3pvb20tMTUwMHgxNTAwLTUwMTQ5LmpwZyJdLFsicCIsImVuY29kZSIsImpwZyIsIi1xdWFsaXR5IDgwIl0sWyJwIiwidGh1bWIiLCI2MjB4NDY1XHUwMDNlIl1d?sha=874d4cf43c8200ff",
+      "category": [6]
+    },
+    {
       "id": 5,
       "title": "Цены на нефть растут",
       "published": "2020-09-18T11:02:00.000Z",
-      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTgvMDkvMzAvMzIvOGZlYmVkNDUtYTE0NS00NDYyLTk5NDMtNWZiNGUxMzc1YjM1LzVlYjM5Y2I2MDJlOGJkMTU4MTEzNzMzNy5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=70572a4ac7436edb"
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTgvMDkvMzAvMzIvOGZlYmVkNDUtYTE0NS00NDYyLTk5NDMtNWZiNGUxMzc1YjM1LzVlYjM5Y2I2MDJlOGJkMTU4MTEzNzMzNy5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=70572a4ac7436edb",
+      "category": [2]
     },
     {
       "id": 4,
       "title": "Армяне продолжают нарушать режим прекращения огня",
       "published": "2020-09-18T11:00:00.000Z",
-      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTgvMDkvNDIvMDkvMGUxYzJmNmMtYmI5OS00OGM3LWI3OGYtNTA3N2E5YzIwZDdkLzE0MTMyNzY0NDBfODAxMzg0NjUuanBnIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODAiXSxbInAiLCJ0aHVtYiIsIjYyMHg0NjVcdTAwM2UiXV0?sha=aedabf6eeab09b84"
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTgvMDkvNDIvMDkvMGUxYzJmNmMtYmI5OS00OGM3LWI3OGYtNTA3N2E5YzIwZDdkLzE0MTMyNzY0NDBfODAxMzg0NjUuanBnIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODAiXSxbInAiLCJ0aHVtYiIsIjYyMHg0NjVcdTAwM2UiXV0?sha=aedabf6eeab09b84",
+      "category": [4]
     },
     {
       "id": 3,
       "title": "Алексея Навального выдвинули на Нобелевскую премию мира",
       "published": "2020-09-17T03:05:00.000Z",
-      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTUvNDMvMTcvZTFiNGYyY2QtZTY2Zi00OTExLTgyODktZmQ4ZDJjNWJmM2RhLzE1NzY2NzczNDVfMF8yMDZfMjk0N18xODY0XzE5MjB4MF84MF8wXzBfMTYyNDFiZGI5Mzk0MTk0NjllMzdiOGJkYmQwYThkZTUuanBnIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODAiXSxbInAiLCJ0aHVtYiIsIjYyMHg0NjVcdTAwM2UiXV0?sha=8ee29dbb5c583ab7"
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTUvNDMvMTcvZTFiNGYyY2QtZTY2Zi00OTExLTgyODktZmQ4ZDJjNWJmM2RhLzE1NzY2NzczNDVfMF8yMDZfMjk0N18xODY0XzE5MjB4MF84MF8wXzBfMTYyNDFiZGI5Mzk0MTk0NjllMzdiOGJkYmQwYThkZTUuanBnIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODAiXSxbInAiLCJ0aHVtYiIsIjYyMHg0NjVcdTAwM2UiXV0?sha=8ee29dbb5c583ab7",
+      "category": [1]
     },
     {
       "id": 2,
       "title": "В Баку 27-летняя учительница свела счеты с жизнью",
       "published": "2020-09-17T11:16:00.000Z",
-      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTIvMDgvNDEvOWY0NzQ3MWQtOGZkOS00NjU0LWFhYTktYTc5NDIwMDVlMzFiLzk2ODQ0Mi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=c8d55dfa93c52991"
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTIvMDgvNDEvOWY0NzQ3MWQtOGZkOS00NjU0LWFhYTktYTc5NDIwMDVlMzFiLzk2ODQ0Mi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=c8d55dfa93c52991",
+      "category": [3]
     },
     {
       "id": 1,
-      "title": "Депутат: Мне сообщили о незаконных действиях бывших членов Комиссии по помилованию",
+      "title": "В автомобиле жителя Абшерона найдена граната",
       "published": "2020-09-17T11:14:00.000Z",
-      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTcvMTIvMTQvMDcvNjM1NWJhOWYtMmE0Ny00MDA2LThiN2EtMGZkZWEzY2VkNzQxL2Vmdi5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=c2697b19f0e7cf5c"
+      "imgSrc": "https://cdn.oxu.az/uploads/W1siZiIsIjIwMjAvMDkvMTYvMTYvNDIvMzIvMzcyZWM5NDMtZTdkYi00NjA4LWJkNTQtODA5ZmNhMWM5YTk3L3F1bS5qcGciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4MCJdLFsicCIsInRodW1iIiwiNjIweDQ2NVx1MDAzZSJdXQ?sha=cd9e3d490583c5d1",
+      "category": [5]
     }
   ],
   "newsBody": [
     {
       "id": 1,
-      "body": "Водители некоторых бывших членов Комиссии по вопросам помилования при Президенте подходили к гражданам и говорили, что помогут включить фамилии их близких в список лиц, представляемых для помилования.\n\n Об этом 17 сентября на заседании комитета по правам человека Милли Меджлиса Азербайджана сказал депутат Эльман Насиров.\n\n \"Но я не знаю, правда ли это. Во всяком случае, это серьезный сигнал. По имеющейся у меня информации, делал это водитель одного из членов комиссии, который являлся депутатом. При посредничестве этого шофера некоторые фамилии были включены в список лиц, представляемых для помилования.\"",
-      "newsMedia": []
+      "body": "Сотрудники управления полиции Бинагадинского района Баку на основании оперативной информации обнаружили в автомобиле TOFAŞ жителя Абшеронского района Э.Алиева гранату Ф-1, сообщает пресс-служба МВД.\n\n Боеприпас был изъят. Ведется следствие.",
+      "newsMedia": [] 
     },
     {
       "id": 2,
@@ -55,6 +74,16 @@
     {
       "id": 5,
       "body": "Мировые цены на нефть растут в ходе торгов 18 сентября, передает RT. Октябрьские фьючерсы на нефть WTI выросли на 0,59%, составив 41,21 доллара за баррель.\n\n Фьючерсы на нефть марки Brent с поставкой в ноябре подорожали на 0,62% - до 43,57 доллара за баррель.",
+      "newsMedia": []
+    },
+    {
+      "id": 6,
+      "body": "Главный тренер мадридского \"Реала\" Зинедин Зидан поделился ожиданиями от сезона-2020/2021 и оценил готовность \"Барселоны\".\n\n \"Я не знаю, что происходит внутри команды, поэтому не хочу вмешиваться. Думаю, что у каждого клуба есть свои проблемы и трудности. \"Барселона\" с точки зрения команды и состава - это клуб, который будет бороться за все титулы. Я в этом не сомневаюсь\", – цитирует Зидана AS, передает \"Чемпионат\".\n\n В сезоне-2019/2020 мадридский \"Реал\" набрал 87 очков в 38 матчах и стал чемпионом Испании. \"Барселона\" завершила розыгрыш на втором месте в турнирной таблице.",
+      "newsMedia": []
+    },
+    {
+      "id": 7,
+      "body": "Прокуратура Гедабейского района распространила сообщение об инциденте, произошедшем накануне в селе Гурудере.\n\n \"25 сентября поступила информация о нанесении местной жительнице Зульфие Масимовой многочисленных ножевых ранений. В ходе расследования возникли обоснованные подозрения в том, что Расим Масимов на почве личного конфликта ударил несколько раз ножом бывшую супругу З.Масимову, пытаясь убить, а затем скрылся. По данному факту возбуждено уголовное дело по статье 29,120.1 (покушение на убийство) УК АР.\n\n В настоящее время проводятся оперативно-разыскные мероприятия по привлечению Р.Масимова к следствию. Расследование продолжается\".",
       "newsMedia": []
     }
   ]
