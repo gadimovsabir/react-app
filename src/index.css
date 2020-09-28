@@ -61,6 +61,25 @@ main {
   background-position: 51.41242937853107% 71.42857142857143%;
 }
 
+.nav-container {
+  background-color: #222222;
+}
+
+.link {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.link:hover {
+  background-color: #454545;
+}
+
 @font-face {
   font-family: 'Roboto';
   src: url(./fonts/Roboto-Bold-webfont.woff);

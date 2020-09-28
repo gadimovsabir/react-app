@@ -14,11 +14,18 @@ class App extends React.Component {
     };
   }
 
-  loadData() {
+  loadData(event) {
+    const categoryId = event && Number(event.target.dataset.id); 
     fetch('https://my-json-server.typicode.com/gadimovsabir/react-app/news')
       .then(response => response.json())
       .then(
-        result => this.setState({items: result, news: null, error: null,}),
+        result => {
+          if (categoryId) {
+            result = result.filter(item => item.category.includes(categoryId));
+          }
+
+          this.setState({items: result, news: null, error: null,})
+        },
         error => this.setState({error})
       );
   }

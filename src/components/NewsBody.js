@@ -3,9 +3,9 @@ import './NewsBody.css';
 
 class NewsBody extends React.Component {
   render() {
-    const images = this.props.news.newsMedia.map(src => {
+    const images = this.props.news.newsMedia.map((src, index) => {
       return (
-        <div className="img-wrapper">
+        <div className="img-wrapper" key={index}>
           <img src={src} />
         </div>
       );}
