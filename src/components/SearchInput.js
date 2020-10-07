@@ -5,7 +5,7 @@ class SearchInput extends React.Component {
     return (
       <div>
         <input type="search" placeholder="Поиск" className="search-input" />
-        <button className="search-btn" />
+        <button className="search-btn sprite" />
       </div>
     );
   }

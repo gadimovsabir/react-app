@@ -6,12 +6,10 @@ class PublishedDate extends React.Component {
     const date = new Date(this.props.published);
 
     return (
-      <div className="date-container">
-        <div className="date">
-          <span>{date.getDate()}</span><br />
-          {MONTHS[date.getMonth()]}
-        </div>
-        <div className="time">{timeToString(date.getHours(), date.getMinutes())}</div>
+      <div className={`date-container ${this.props.cssClass || ''}`}>
+        <span className="day date">{date.getDate()}</span>
+        <span className="month date">{MONTHS[date.getMonth()]}</span>
+        <span className="time">{timeToString(date.getHours(), date.getMinutes())}</span>
       </div>
     );
   }

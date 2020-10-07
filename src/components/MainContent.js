@@ -1,9 +1,19 @@
 import React from 'react';
 import NewsCard from './NewsCard.js';
 import NewsBody from './NewsBody.js';
+import Slider from './Slider.js'
 
 class MainContent extends React.Component {
   render() {
+    const slider = this.props.showSlider ? 
+      <div className="row">
+        <Slider 
+          lastNews={this.props.items.slice(0, 4)}
+          handleClick={this.props.handleClick} 
+        />
+      </div> :
+      null;
+
     let data;
 
     if (this.props.error) {
@@ -26,6 +36,7 @@ class MainContent extends React.Component {
     return (
       <main>
         <div className="container">
+          {slider}
           <div className="row">{data}</div>
         </div>
       </main>

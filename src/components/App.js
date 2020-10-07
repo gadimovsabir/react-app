@@ -11,6 +11,7 @@ class App extends React.Component {
       items: [],
       news: null,
       error: null,
+      showSlider: false,
     };
   }
 
@@ -24,7 +25,12 @@ class App extends React.Component {
             result = result.filter(item => item.category.includes(categoryId));
           }
 
-          this.setState({items: result, news: null, error: null,})
+          this.setState({
+            items: result,
+            news: null,
+            error: null,
+            showSlider: !Boolean(categoryId),
+          });
         },
         error => this.setState({error})
       );
@@ -37,7 +43,7 @@ class App extends React.Component {
   handleClick(e, newsData) {
     fetch('https://my-json-server.typicode.com/gadimovsabir/react-app/newsBody/' + newsData.id)
       .then(response => response.json())
-      .then(result => this.setState({items: [], news: {...result, ...newsData},}));
+      .then(result => this.setState({items: [], news: {...result, ...newsData}, showSlider: false}));
   }
 
   render() {
@@ -49,6 +55,7 @@ class App extends React.Component {
           news={this.state.news}
           error={this.state.error}
           handleClick={this.handleClick}
+          showSlider={this.state.showSlider}
         />
       </>
     );

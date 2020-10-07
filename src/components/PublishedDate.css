@@ -1,22 +1,48 @@
 .date-container {
-  display: inline-block;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   color: #fff;
   opacity: 0.9;
   font-size: 13px;
 }
 
 .date {
-  padding: 6px 15px;
-  text-align: center;
+  padding: 0 15px;
   background-color: #1894A0;
 }
 
-.date > span {
+.day {
+  padding-top: 6px;
   font-size: 18px;
+}
+
+.month {
+  padding-bottom: 6px;
 }
 
 .time {
   padding: 5px 15px 3px;
-  text-align: center;
   background-color: #334564;
+}
+
+.slide-date {
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slide-date > .date {
+  padding: 7px 0;
+}
+
+.slide-date > .day {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.slide-date > .time {
+  padding: 7px 15px;
+  background-color: #1894A0;
 }

@@ -57,7 +57,6 @@ main {
   width: 20px;
   height: 20px;
   content: "";
-  background-image: url(./img/sprite-14779aea9a2609defbd213c565a1d0593922d6e2ca321f275b01c9afcb10310f.svg);
   background-position: 51.41242937853107% 71.42857142857143%;
 }
 
@@ -78,6 +77,10 @@ main {
 
 .link:hover {
   background-color: #454545;
+}
+
+.sprite::after {
+  background-image: url(./img/sprite-14779aea9a2609defbd213c565a1d0593922d6e2ca321f275b01c9afcb10310f.svg);
 }
 
 @font-face {
