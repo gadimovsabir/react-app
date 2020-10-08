@@ -6,7 +6,7 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <PrimaryHeader loadData={this.props.loadData} />
+        <PrimaryHeader loadData={this.props.loadData} searchData={this.props.searchData} />
         <NavBar loadData={this.props.loadData} />
       </header>
     );
