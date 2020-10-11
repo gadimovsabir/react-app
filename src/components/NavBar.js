@@ -3,7 +3,7 @@ import React from 'react';
 class NavBar extends React.Component {
   render() {
     return (
-      <div className="nav-container">
+      <div className={`nav-container ${this.props.cssClass || ""}`}>
         <div className="container">
           <nav>
             <a className="link" onClick={this.props.loadData} data-id="0" href="#">Главная</a>
