@@ -1,9 +1,15 @@
 import React from 'react';
 
 class NavBar extends React.Component {
+  shouldComponentUpdate() {
+    const navContainer = document.querySelector('.nav-container');
+    navContainer.className = 'nav-container';
+    return false;
+  }
+
   render() {
     return (
-      <div className={`nav-container ${this.props.cssClass || ""}`}>
+      <div className="nav-container">
         <div className="container">
           <nav>
             <a className="link" onClick={this.props.loadData} data-id="0" href="#">Главная</a>

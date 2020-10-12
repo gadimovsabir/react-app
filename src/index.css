@@ -3,21 +3,21 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  height: 43px;
+  margin-top: 45px;
+}
+
 main {
   margin-top: 20px;
 }
 
-.fixed-header {
+.primary-header {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
-  width: 100%;
-}
-
-.primary-header {
-  position: relative;
   z-index: 3;
+  width: 100%;
   padding: 5.5px 0;
   background-image: url(./img/header_bg-16b933a63f94b28290d368006e6a4901530e656b79339c9ed6de9321eb73a30a.png);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
@@ -46,7 +46,7 @@ main {
 .nav-toggle::before {
   position: absolute;
   top: 2px;
-  left: -0;
+  left: 0;
   width: 18px;
   height: 15px;
   background-position: 44.134078212290504% 87.68115942028986%;
@@ -92,12 +92,15 @@ main {
 }
 
 .nav-container {
-  margin-top: 45px;
   background-color: #222222;
 }
 
-.nav-container.fixed-nav-bar {
-  margin-top: 0;
+.nav-container.fixed-nav-container {
+  position: fixed;
+  top: 45px;
+  z-index: 2;
+  width: 100%;
+
 }
 
 .link {
