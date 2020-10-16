@@ -19,11 +19,11 @@ class MainContent extends React.Component {
     if (this.props.error) {
       data = this.props.error.message;
     } else if (this.props.news) {
-      data = <div className="col-lg-8"><NewsBody news={this.props.news} /></div>
+      data = <div className="col-lg-8 col-xs-12"><NewsBody news={this.props.news} /></div>
     } else {
       data = this.props.items.map(item => {
         return (
-          <div className="col-lg-4 card-container" key={item.id}>
+          <div className="col-lg-4 col-md-6 col-xs-12 card-container" key={item.id}>
             <NewsCard
               newsData={item}
               handleClick={this.props.handleClick}

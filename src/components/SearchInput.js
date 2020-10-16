@@ -3,7 +3,7 @@ import React from 'react';
 class SearchInput extends React.Component {
   render() {
     return (
-      <div>
+      <div className="search-input-container">
         <input 
           type="search"
           placeholder="Поиск"

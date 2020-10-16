@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import App from './components/App.js';
 import 'bootstrap/dist/css/bootstrap-grid.min.css';
-import './index.css'
+import './index.css';
+import './responsive.css';
 
 ReactDOM.render(
   <React.StrictMode>

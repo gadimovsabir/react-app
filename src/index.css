@@ -5,7 +5,7 @@ body {
 
 header {
   height: 43px;
-  margin-top: 45px;
+  margin-top: 44px;
 }
 
 main {
@@ -34,7 +34,6 @@ main {
   position: relative;
   padding-left: 25px;
   margin-left: 25px;
-  margin-right: 400px;
   color: #fff;
   font-size: 17px;
   font-weight: bold;
@@ -44,13 +43,13 @@ main {
 }
 
 .nav-toggle::before {
+  content: "";
   position: absolute;
   top: 2px;
   left: 0;
   width: 18px;
   height: 15px;
   background-position: 44.134078212290504% 87.68115942028986%;
-  content: "";
 }
 
 .search-input {
@@ -65,7 +64,8 @@ main {
 }
 
 .search-input:focus,
-.search-btn:focus {
+.search-btn:focus,
+.search-input-toggle {
   outline: none;
 }
 
@@ -82,12 +82,34 @@ main {
 }
 
 .search-btn::after {
+  content: "";
   position: absolute;
   left: 7px;
   top: 7px;
   width: 20px;
   height: 20px;
+  background-position: 51.41242937853107% 71.42857142857143%;
+}
+
+.search-input-toggle {
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 9px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.search-input-toggle::after {
   content: "";
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  width: 20px;
+  height: 20px;
   background-position: 51.41242937853107% 71.42857142857143%;
 }
 
@@ -97,7 +119,7 @@ main {
 
 .nav-container.fixed-nav-container {
   position: fixed;
-  top: 45px;
+  top: 44px;
   z-index: 2;
   width: 100%;
 
@@ -127,6 +149,14 @@ main {
   text-align: center;
 }
 
+.show {
+  display: block !important;
+}
+
+.hide {
+  display: none !important;
+}
+
 @font-face {
   font-family: 'Roboto';
   src: url(./fonts/Roboto-Bold-webfont.woff);
@@ -151,7 +181,7 @@ main {
 /* BOOTSTRAP CLASSES */
 
 .container {
-  width: 970px;
+  max-width: 970px;
 }
 
 .row {

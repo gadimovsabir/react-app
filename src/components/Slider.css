@@ -1,6 +1,6 @@
 .slider {
   position: relative;
-  width: 614px;
+  max-width: 614px;
   margin: 0 0 35px 6px;
   overflow: hidden;
   cursor: pointer;
@@ -49,10 +49,12 @@
 
 .arrow::after {
   position: absolute;
-  top: 193.5px;
-  left: 14px;
+  top: 50%;
+  left: 50%;
   width: 52px;
   height: 73px;
+  margin-left: -26px;
+  margin-top: -36.5px;
   content: "";
 }
 

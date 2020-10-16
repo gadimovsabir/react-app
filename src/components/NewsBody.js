@@ -6,7 +6,7 @@ class NewsBody extends React.Component {
     const images = this.props.news.newsMedia.map((src, index) => {
       return (
         <div className="img-wrapper" key={index}>
-          <img src={src} />
+          <img src={src} className="news-img" />
         </div>
       );}
     );
